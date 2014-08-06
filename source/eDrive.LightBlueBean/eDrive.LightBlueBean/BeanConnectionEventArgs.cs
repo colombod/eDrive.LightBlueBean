@@ -5,7 +5,7 @@ namespace eDrive.LightBlueBean
     /// <summary>
     /// Event Args for connection status changes from <see cref="IBean"/>
     /// </summary>
-    public class BeanConnectionEventHandler
+    public class BeanConnectionEventArgs
     {
         /// <summary>
         /// Gets the status.
@@ -16,10 +16,10 @@ namespace eDrive.LightBlueBean
         public BeanConnectionStatus Status { get; private set; }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BeanConnectionEventHandler"/> class.
+        /// Initializes a new instance of the <see cref="BeanConnectionEventArgs"/> class.
         /// </summary>
         /// <param name="status">The status.</param>
-        public BeanConnectionEventHandler(BeanConnectionStatus status)
+        public BeanConnectionEventArgs(BeanConnectionStatus status)
         {
             Status = status;
         }

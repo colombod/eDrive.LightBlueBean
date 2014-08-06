@@ -35,12 +35,12 @@ namespace  eDrive.LightBlueBean.Platform
                     var handler = ConnectionStatusChanged;
                     if (handler != null)
                     {
-                        handler(this, new BeanConnectionEventHandler(_connectionStatus));
+                        handler(this, new BeanConnectionEventArgs(_connectionStatus));
                     }
                 }
             }
         }
 
-        public event EventHandler<BeanConnectionEventHandler> ConnectionStatusChanged;
+        public event EventHandler<BeanConnectionEventArgs> ConnectionStatusChanged;
     }
 }

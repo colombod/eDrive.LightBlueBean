@@ -30,7 +30,7 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BeanConnectionEventHandler.cs" />
+    <Compile Include="BeanConnectionEventArgs.cs" />
     <Compile Include="BeanConnectionStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IBeanManager.cs" />

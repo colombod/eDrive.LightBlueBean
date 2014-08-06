@@ -18,7 +18,7 @@ namespace eDrive.LightBlueBean
         /// <summary>
         /// Occurs when [connection status changed].
         /// </summary>
-        event EventHandler<BeanConnectionEventHandler> ConnectionStatusChanged;
+        event EventHandler<BeanConnectionEventArgs> ConnectionStatusChanged;
     }
 }
 
