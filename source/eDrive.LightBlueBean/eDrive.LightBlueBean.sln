@@ -18,9 +18,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D3ACEE
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "eDrive.LightBlueBean.Platform.Shared", "eDrive.LightBlueBean.Platform.Shared\eDrive.LightBlueBean.Platform.Shared.shproj", "{4F525B1D-5129-4DD5-9C7B-6BD43EBDBD55}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		eDrive.LightBlueBean.Platform.Shared\eDrive.LightBlueBean.Platform.Shared.projitems*{7600a2cc-84dd-43aa-b580-733c436a8133}*SharedItemsImports = 4
+		eDrive.LightBlueBean.Platform.Shared\eDrive.LightBlueBean.Platform.Shared.projitems*{4f525b1d-5129-4dd5-9c7b-6bd43ebdbd55}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +34,6 @@ Global
 		{5BAE0692-DF55-4CC3-A633-6B46A62459AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BAE0692-DF55-4CC3-A633-6B46A62459AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAE0692-DF55-4CC3-A633-6B46A62459AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7E15887-0BBE-4E04-BB30-B54799692991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7E15887-0BBE-4E04-BB30-B54799692991}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7E15887-0BBE-4E04-BB30-B54799692991}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7E15887-0BBE-4E04-BB30-B54799692991}.Release|Any CPU.Build.0 = Release|Any CPU
 		{259EDCAF-1DAE-4533-B47A-FDE5EA792EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{259EDCAF-1DAE-4533-B47A-FDE5EA792EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259EDCAF-1DAE-4533-B47A-FDE5EA792EE6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
